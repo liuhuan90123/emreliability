@@ -10,7 +10,7 @@
 #' normal_quadra(41, 5)
 #'
 #'
-normal_quadra <- function(nnodes, minmax){
+normal_quadra <- function(nnodes, minmax) {
 
   # set nodes ranging from -5 to 5
   nodes <- seq(-minmax, minmax, length.out = nnodes)

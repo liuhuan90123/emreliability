@@ -11,7 +11,7 @@ Authors@R: c(
            role = c("aut"),
            email = "won-chan-lee@uiowa.edu"))
 Description: This package provides functions to calculate reliability coefficients and CSEM under the framework of CTT and IRT.
-License: GPL (>= 3)
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

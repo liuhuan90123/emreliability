@@ -38,8 +38,53 @@ library(usethis)
 
 
 
-# devtools::document()
 
+
+# make all functions avaliable for testing
+
+load_all()
+
+normal_quadra(11,4)
+
+
+## check package
+check()
+
+
+
+# change license
+use_mit_license("emreliability authors")
+
+
+# all .rd files
+document()
+
+?normal_quadra
+?cronbach_alpha
+
+# install
+install()
+
+
+
+# read me file
+use_readme_rmd()
+
+
+build_readme()
+
+
+
+
+# install.packages("styler")
+library(styler)
+# style_file("R\\cronbach-alpha.R")
+
+
+
+# install.packages("lintr")
+
+lintr::lint_package()
 
 
 

@@ -10,7 +10,7 @@
 #' @examples
 #'
 #'
-cronbach_alpha <- function(dat){
+cronbach_alpha <- function(dat) {
   # num of culomns
   numColumn <- ncol(dat)
 
@@ -20,7 +20,7 @@ cronbach_alpha <- function(dat){
   # sum of total variance
   varTotal <- sum(cov(dat))
 
-  cronbachAlpha <- numColumn / (numColumn - 1) * (varTotal - varItemSum)/varTotal
+  cronAlpha <- numColumn / (numColumn - 1) * (varTotal - varItemSum) / varTotal
 
-  return(cronbachAlpha)
+  return(cronAlpha)
 }
