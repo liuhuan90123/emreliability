@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 # emreliability
 
 <!-- badges: start -->
+[![Codecov test coverage](https://codecov.io/gh/liuhuan90123/emreliability/branch/main/graph/badge.svg)](https://codecov.io/gh/liuhuan90123/emreliability?branch=main)
+[![R-CMD-check](https://github.com/liuhuan90123/emreliability/workflows/R-CMD-check/badge.svg)](https://github.com/liuhuan90123/emreliability/actions)
 <!-- badges: end -->
 
 The goal of emreliability is to ...

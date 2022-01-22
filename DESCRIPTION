@@ -1,18 +1,17 @@
 Package: emreliability
 Title: Educational Measurement Reliability
 Version: 0.0.0.9000
-Authors@R: c(
-    person(given = "Huan",
-           family = "Liu",
-           role = c("aut", "cre"),
-           email = "huan-liu-1@uiowa.edu"),
-    person(given = "Won-Chan",
-           family = "Lee",
-           role = c("aut"),
-           email = "won-chan-lee@uiowa.edu"))
-Description: This package provides functions to calculate reliability coefficients and CSEM under the framework of CTT and IRT.
+Description: This package provides functions to calculate reliability 
+    coefficients and CSEM under the framework of CTT and IRT.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Author: Huan Liu [aut, cre]
+        Won-Chan Lee [aut]
+Maintainer: Huan Liu <huan-liu-1@uiowa.edu>
+Suggests: 
+    covr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

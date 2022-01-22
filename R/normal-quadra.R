@@ -1,7 +1,10 @@
+#' Gaussian quadrature points and weights
+#'
+#' @description
 #' Generate Gaussian quadrature points and corresponding weights
 #'
-#' @param nnodes Number of quadrature points
-#' @param minmax Absolute value of minumum or maximum of quadrature points
+#' @param n Number of quadrature points
+#' @param mm Absolute value of minumum or maximum of quadrature points
 #'
 #' @return A list of Gaussian quadrature points and corresponding weights
 #' @export
@@ -10,10 +13,10 @@
 #' normal_quadra(41, 5)
 #'
 #'
-normal_quadra <- function(nnodes, minmax) {
+normal_quadra <- function(n, mm) {
 
   # set nodes ranging from -5 to 5
-  nodes <- seq(-minmax, minmax, length.out = nnodes)
+  nodes <- seq(-mm, mm, length.out = n)
 
   # unnormalized weights
   weightsUnwtd <- sapply(nodes, FUN = function(x) dnorm(x))

@@ -2,14 +2,14 @@
 % Please edit documentation in R/normal-quadra.R
 \name{normal_quadra}
 \alias{normal_quadra}
-\title{Generate Gaussian quadrature points and corresponding weights}
+\title{Gaussian quadrature points and weights}
 \usage{
-normal_quadra(nnodes, minmax)
+normal_quadra(n, mm)
 }
 \arguments{
-\item{nnodes}{Number of quadrature points}
+\item{n}{Number of quadrature points}
 
-\item{minmax}{Absolute value of minumum or maximum of quadrature points}
+\item{mm}{Absolute value of minumum or maximum of quadrature points}
 }
 \value{
 A list of Gaussian quadrature points and corresponding weights

@@ -59,8 +59,14 @@ use_mit_license("emreliability authors")
 # all .rd files
 document()
 
-?normal_quadra
-?cronbach_alpha
+# ?normal_quadra
+# ?cronbach_alpha
+
+
+# build manual
+
+build_manual(pkg = ".")
+
 
 # install
 install()
@@ -89,4 +95,39 @@ lintr::lint_package()
 
 
 
+# test functions
+usethis::use_testthat()
+usethis::use_test()
 
+
+# right corner under build to test package
+
+
+
+
+# 升级版本号
+usethis::use_version()
+
+
+# install.packages("pkgdown")
+
+# usethis::use_pkgdown()
+#
+#
+# pkgdown::build_site()
+
+
+
+# usethis::use_tidy_github_actions()
+
+
+
+Authors@R: c(
+  person(given = "Huan",
+         family = "Liu",
+         role = c("aut", "cre"),
+         email = "huan-liu-1@uiowa.edu"),
+  person(given = "Won-Chan",
+         family = "Lee",
+         role = c("aut"),
+         email = "won-chan-lee@uiowa.edu"))
